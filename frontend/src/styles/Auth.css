@@ -1,0 +1,122 @@
+/* Centering the login page */
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f8f9fc;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Left section */
+.auth-info {
+  flex: 1;
+  text-align: center;
+}
+
+.auth-info p {
+  font-size: 16px;
+  color: #666;
+}
+
+.auth-info h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0044cc;
+}
+
+/* Right section - Login Form */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.auth-box {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  text-align: center;
+}
+
+.auth-box h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.auth-box p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.auth-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #f8f9fc;
+}
+
+/* Input error message */
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+/* Forgot Password */
+.forgot-password {
+  display: block;
+  text-align: left;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  background: #0044cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background 0.3s ease-in-out;
+}
+
+.auth-button:hover {
+  background: #0033a0;
+}
+
+/* Signup Link */
+.switch-auth {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.switch-auth a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.switch-auth a:hover {
+  text-decoration: underline;
+}
